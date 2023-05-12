@@ -23,7 +23,7 @@ let winningCombos:Set = [
     [2, 4, 6]
 ]
 
-var gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+var gameState = ["-","-","-","-","-","-","-","-","-"]
 
 
 struct ContentView: View {
@@ -50,19 +50,19 @@ struct ContentView: View {
             Spacer()
             VStack {
                 HStack {
-                    Image("o").padding()
-                    Image("o").padding()
-                    Image("o").padding()
+                    Text("o").padding()
+                    Text("o").padding()
+                    Text("o").padding()
                 }
                 HStack {
-                    Image("o").padding()
-                    Image("o").padding()
-                    Image("o").padding()
+                    Text("o").padding()
+                    Text("o").padding()
+                    Text("o").padding()
                 }
                 HStack {
-                    Image("o").padding()
-                    Image("o").padding()
-                    Image("o").padding()
+                    Text("o").padding()
+                    Text("o").padding()
+                    Text("o").padding()
                 }
             }
     
